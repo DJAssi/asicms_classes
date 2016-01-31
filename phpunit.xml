@@ -1,0 +1,31 @@
+<phpunit bootstrap2="src/autoload.php">
+  <testsuites>
+    <testsuite name="alleFunktionen">
+      <directory>unit-tests</directory>
+    </testsuite>
+  </testsuites>
+  <!--<filter>
+	<whitelist processUncoveredFilesFromWhitelist="true">
+		<directory suffix=".php">/var/www/OpenMovieArchive/app/code/classes/</directory>
+		<!--<file>/path/to/file</file>-->
+		<!--<exclude>
+			<directory suffix=".php">/var/www/OpenMovieArchive/app/code/classes/Amazon_samples/</directory>
+			<directory suffix=".php">/var/www/OpenMovieArchive/app/code/classes/Facebook/</directory>
+			<directory suffix=".php">/var/www/OpenMovieArchive/app/code/classes/Google/</directory>
+			<directory suffix=".php">/var/www/OpenMovieArchive/app/code/classes/library/</directory>
+			
+		</exclude>
+	</whitelist>
+  </filter>-->
+  <!--<logging>
+  <log type="coverage-html" target="/var/www/OpenMovieArchive/skins/unittest/coverage/" lowUpperBound="35" highLowerBound="70"/>
+  <log type="coverage-clover" target="/var/www/OpenMovieArchive/skins/unittest/coverage.xml"/>
+  <log type="coverage-php" target="/var/www/OpenMovieArchive/skins/unittest/coverage.serialized"/>
+  <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+  <log type="json" target="/var/www/OpenMovieArchive/skins/unittest/logfile.json"/>
+  <log type="tap" target="/var/www/OpenMovieArchive/skins/unittest/logfile.tap"/>
+  <log type="junit" target="/var/www/OpenMovieArchive/skins/unittest/logfile.xml" logIncompleteSkipped="false"/>
+  <log type="testdox-html" target="/var/www/OpenMovieArchive/skins/unittest/testdox.html"/>
+  <log type="testdox-text" target="/var/www/OpenMovieArchive/skins/unittest/testdox.txt"/>
+</logging>-->
+</phpunit>

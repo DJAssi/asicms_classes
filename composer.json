@@ -1,0 +1,16 @@
+{
+    "name": "djassi/asicms_classes",
+    "description": "Standard Klassen Library für PHP",
+    "license": "FastFoodLicense <https://github.com/DJAssi/license/blob/master/README.md>",
+    "authors": [
+        {
+            "name": "Andreas Kasper",
+            "email": "andreas.kasper@goo1.de"
+        }
+    ],
+    "autoload": {
+        "classmap" : [
+            "autoload.php"
+        ]
+    }
+}
